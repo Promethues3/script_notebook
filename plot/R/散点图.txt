@@ -1,8 +1,0 @@
-p <- ggplot(data = data_plot,aes(x=Carbon_emissions,y=value,
-                                    color=index))+
-  facet_wrap(index~.)+
-  geom_point(size=1)+
-  theme_bw()+
-  scale_color_brewer(palette = 'Set1')+
-  labs(shape=NULL,color=NULL,fill=NULL)
-p
